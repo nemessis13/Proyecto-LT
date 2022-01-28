@@ -3,7 +3,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-    
+
 
 body{
     background-image: url(../img/black.jpg);
@@ -74,7 +74,8 @@ footer{
         padding: 0 0 10px;}
     .segment-three h2::before{
         content: "|";
-        color: #0db846;}
+        color: #0db846;
+        padding: 10px;}
     .segment-three h2{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-transform: uppercase;}
@@ -481,7 +482,20 @@ footer{
 }
 
 
+/* maps */
 
+$redes: ( 
+        fa-instagram-square: #55acee,
+        fa-facebook:  #3a5795,
+        fa-discord: #C25E30
+); 
+
+@each $red, $color in $redes {
+    .fab #{$red} {
+        color: $color;
+    }
+ }
+ 
 
 
 

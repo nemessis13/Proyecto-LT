@@ -96,6 +96,7 @@ footer .segment-two ul li {
 footer .segment-three h2::before {
   content: "|";
   color: #0db846;
+  padding: 10px;
 }
 
 footer .segment-three h2 {
@@ -672,5 +673,18 @@ article:hover {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
+}
+
+/* maps */
+.fab fa-instagram-square {
+  color: #55acee;
+}
+
+.fab fa-facebook {
+  color: #3a5795;
+}
+
+.fab fa-discord {
+  color: #C25E30;
 }
 /*# sourceMappingURL=estilos.css.map */
