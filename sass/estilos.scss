@@ -10,14 +10,16 @@ body{
     background-position:center;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    padding: 0 0 0px;}
+    padding: 0 0 0 0;
+}
+    
 
 .navbar{
     border-bottom: 2px solid #0db846;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.8);
     .container-fluid a{
         margin-right: 30px;
-        border-radius: 6px;}
+        border-radius: 10px;}
         a:hover{
             background-color: #212529;
             padding: 8px;
@@ -54,11 +56,12 @@ body{
 // estilso footer //
 
 footer{
+    margin-bottom: 0;
     background-color: #212529;
     color: whitesmoke;
     border-top: 2px solid #0db846;
     .footer-top{
-        padding: 25px;}
+        padding: 20px;}
     .segment-two h2::before{
         content: "|";
         color: #0db846;

@@ -10,7 +10,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 0 0 0px;
+  padding: 0 0 0 0;
 }
 
 .navbar {
@@ -21,7 +21,7 @@ body {
 
 .navbar .container-fluid a {
   margin-right: 30px;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 .navbar a:hover {
@@ -63,13 +63,14 @@ body {
 }
 
 footer {
+  margin-bottom: 0;
   background-color: #212529;
   color: whitesmoke;
   border-top: 2px solid #0db846;
 }
 
 footer .footer-top {
-  padding: 25px;
+  padding: 20px;
 }
 
 footer .segment-two h2::before {
