@@ -73,7 +73,7 @@ footer{
         padding: 0 0 20px;
         list-style: none;}
     .segment-two ul li{
-        border-bottom: 1px solid rgba(97, 148, 113, 0.4);
+        border-bottom: 1px solid rgba(97, 148, 113, 0.8);
         padding: 0 0 10px;}
     .segment-three h2::before{
         content: "|";
@@ -83,7 +83,7 @@ footer{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-transform: uppercase;}
     .segment-three{
-        padding: 0 0 20px;}
+        padding: 0 20px 0;}
     .segment-three a{
         width: 40px;
         height: 40px;
@@ -92,7 +92,7 @@ footer{
     .segment-three a i{
         font-size: 30px;
         color: whitesmoke;
-        padding: 5px 10px;}
+        padding: 10px 0;}
     .segment-four h2::before{
         content: "|";
         color: #0db846;
@@ -107,9 +107,10 @@ footer{
         margin-left: 5px;
         color: black;}
     .segment-four form {
-        display: flex;}
+        display: block;}
     .segment-four form input {
-        padding: 0;}
+        padding: 20px 0 0 10px;}
+        
     .footer-bottom-text{
         text-align: center;
         background: rgb(29, 29, 29);

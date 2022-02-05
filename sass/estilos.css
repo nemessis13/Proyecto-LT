@@ -90,7 +90,7 @@ footer .segment-two ul {
 }
 
 footer .segment-two ul li {
-  border-bottom: 1px solid rgba(97, 148, 113, 0.4);
+  border-bottom: 1px solid rgba(97, 148, 113, 0.8);
   padding: 0 0 10px;
 }
 
@@ -106,7 +106,7 @@ footer .segment-three h2 {
 }
 
 footer .segment-three {
-  padding: 0 0 20px;
+  padding: 0 20px 0;
 }
 
 footer .segment-three a {
@@ -119,7 +119,7 @@ footer .segment-three a {
 footer .segment-three a i {
   font-size: 30px;
   color: whitesmoke;
-  padding: 5px 10px;
+  padding: 10px 0;
 }
 
 footer .segment-four h2::before {
@@ -142,13 +142,11 @@ footer .segment-four form input[type=submit] {
 }
 
 footer .segment-four form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 
 footer .segment-four form input {
-  padding: 0;
+  padding: 20px 0 0 10px;
 }
 
 footer .footer-bottom-text {
